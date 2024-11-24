@@ -1,0 +1,33 @@
+[build-system]
+requires = [
+  "setuptools-scm>=8",
+  "setuptools>=69",
+]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "console"
+authors = [
+  { name = "Ed Yablonsky", email = "eyablonsky+github@gmail.com" },
+]
+dependencies = [
+  "flask",
+  "pyzmq",
+]
+description = "Sample Web UI"
+dynamic = [
+  "version",
+]
+readme = "README.md"
+requires-python = ">=3.8"
+classifiers = [
+  "Programming Language :: Python :: 3",
+  "License :: OSI Approved :: MIT License",
+  "Operating System :: OS Independent",
+]
+
+[project.urls]
+Homepage = "https://github.com/eDyablo/zmq-sample-console"
+Issues = "https://github.com/eDyablo/zmq-sample-console/issues"
+
+[tool.setuptools_scm]

@@ -1,0 +1,5 @@
+.DS_Store
+.git
+.vscode
+*.gitlab-ci.yml
+docker-compose.yaml
